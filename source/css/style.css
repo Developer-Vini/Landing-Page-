@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(134, 136, 139);
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+.logo
+{
+    position: relative;
+    right: 76px;
+    cursor: pointer;
+}
+
+ul
+{
+    display: inline-flex;
+    margin: 20px;
+    
+}
+ul a 
+{
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+    justify-content: space-between;
+}
+
+body
+{
+    background-color: rgb(185, 193, 204);
+}
+
+.div_main img
+{
+    position: relative;
+    width: 500px;
+    left: 700px;
+    margin: 5px;
+
+}
+
+.text
+{
+    position: relative;
+    top: -390px;
+    padding-left: 13%;
+}
+.text h1
+{
+    
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.btn
+{
+    padding: 10px;
+    background-color: rgb(185, 193, 204);
+    margin-block: 15px;
+    border: 1px solid rgb(147, 150, 165);
+    border-radius: 20px;
+    width: 220px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.btn:hover
+{
+    transform: scale(1.1);
+    background-color: rgb(132, 133, 138);
+}
+
+ul a:hover
+{
+    color: black;
+    transform: scale(1.1)
+}
